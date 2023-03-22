@@ -1,6 +1,10 @@
 ## To connect ESLint config to your project follow this steps
 
-- Download this package into your project
+- Download this package into your project with command
+
+```npm i eslint-config-ivan-big-d```
+
+
 
 - Create .eslintrc.json into root folder of project
 - Paste the following content inside
