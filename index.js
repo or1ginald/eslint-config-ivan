@@ -33,6 +33,8 @@ module.exports = {
             }
         ],
         "no-unused-vars": "warn",
+        "dot-notation": "off",
+        "import/no-unresolved": "off",
         "consistent-return": "off",
         "no-magic-numbers": "off",
         "default-param-last": "off",
@@ -65,10 +67,7 @@ module.exports = {
                 "ignoreNumericLiteralTypes": true
             }
         ],
-        "@typescript-eslint/no-use-before-define": [
-            "error",
-            { "variables": false }
-        ],
+        "@typescript-eslint/no-use-before-define": ["error", {"variables": false}],
         "@typescript-eslint/explicit-function-return-type": [
             "warn",
             {
@@ -132,11 +131,6 @@ module.exports = {
                         "pattern": "react",
                         "group": "external",
                         "position": "before"
-                    },
-                    {
-                        "pattern": "@elfsight/**",
-                        "group": "external",
-                        "position": "after"
                     }
                 ]
             }
@@ -149,6 +143,11 @@ module.exports = {
                 "peerDependencies": true
             }
         ]
+    },
+    "globals": {
+        "IS_DEV": true,
+        "API": true,
+        "PROJECT": true
     },
     "overrides": [
         {
