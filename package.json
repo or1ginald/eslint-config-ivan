@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ivan-big-d",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "ESLint config for fast start",
   "main": "index.js",
   "keywords": [],
@@ -11,7 +11,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">=5.48.0",
+    "@typescript-eslint/eslint-plugin": ">=6.19.0",
     "@typescript-eslint/parser": ">=5.48.0",
     "eslint": ">=8.40.0",
     "eslint-config-airbnb": ">=19.0.4",
