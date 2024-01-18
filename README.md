@@ -2,7 +2,7 @@
 
 - Download this package into your project with command
 
-```npm i eslint-config-ivan-big-d```
+```npm i -D eslint-config-ivan-big-d```
 
 
 
